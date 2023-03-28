@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="index.html" as="document">
+ 
+    <!-- Preload -->
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="CSS/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a  class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div><!-- barra -->
+        </div><!-- contenedor -->
+        
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div><!-- header__texto -->
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Nosotros</h3>
+        <picture>
+            <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+            <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+        </picture>
+        <p>
+            Vivamus tincidunt quis eros quis laoreet. Suspendisse mi nisl, finibus in libero non, vehicula lacinia neque. Nulla euismod porttitor ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas sed mi a elit porttitor scelerisque. Etiam interdum nunc ullamcorper maximus malesuada. Aenean egestas sem at elementum blandit. Sed a varius velit. Aenean pulvinar, erat sit amet venenatis pellentesque, dolor nibh consectetur lacus, vitae porta elit nisl eu erat. Morbi laoreet tellus nec velit facilisis varius. Phasellus vitae mollis elit, id rutrum lacus. Nullam vehicula, risus sollicitudin auctor aliquet, nulla sem feugiat augue, non consequat massa leo et nulla. Nunc lacinia lectus quis libero dignissim ultricies.
+        </p>
+        <p>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse imperdiet non ante sit amet porta. Fusce a tempus dui. Nunc mollis imperdiet erat vel congue. Mauris imperdiet lacinia enim sed feugiat. Nunc fermentum, dui at dapibus lobortis, orci sem tempor est, sit amet pulvinar nunc massa vel metus. Nullam non lorem sed erat tempus ullamcorper. Praesent volutpat, arcu ut mattis vulputate, nunc nunc rutrum purus, sed auctor velit enim ac justo. Praesent sit amet lacinia dui, non tincidunt est.
+        </p>
+        <p>
+            Nullam vitae purus semper, viverra nunc vel, tempus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque sit amet nunc tellus. Pellentesque magna mauris, aliquam at egestas ac, euismod et magna. Maecenas cursus odio sem, vitae malesuada felis vehicula at. Aenean id enim sem. Donec a nisi sagittis, semper justo gravida, bibendum ipsum. Sed facilisis, tellus eget aliquam tincidunt, mauris metus aliquam ipsum, a gravida tellus neque at nulla. Pellentesque viverra, nulla sed pulvinar consectetur, tellus nunc sollicitudin lectus, id hendrerit lacus felis vel neque.
+        </p>
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a  class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div><!-- barra -->
+        </div><!-- contenedor -->
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+</html>

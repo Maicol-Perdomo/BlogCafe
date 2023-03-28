@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="index.html" as="document">
+ 
+    <!-- Preload -->
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="CSS/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a  class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div><!-- barra -->
+        </div><!-- contenedor -->
+        
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div><!-- header__texto -->
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Nosotros</h3>
+
+        <div class="sobre-nosotros">
+            <div class="sobre-nosotros__imagen">
+                <picture>
+                    <source loading="lazy">
+                    <img loading="lazy" src="img/nosotros.jpg" alt="imagen de nosotros">
+                </picture>
+            </div>
+
+            <div class="sobre-nosortos__texto">
+                <p>
+                    Praesent consequat tincidunt augue et convallis. Sed turpis tellus, ultrices et finibus venenatis, posuere non libero. Mauris non volutpat felis. Etiam sapien nisi, semper vitae magna eget, porttitor iaculis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam dignissim viverra lobortis. Cras accumsan dui ac mollis venenatis. Nunc bibendum mauris dignissim congue vulputate. Donec blandit auctor mauris, at fringilla magna posuere vel. Vestibulum in est ante. Donec ultricies sollicitudin magna, eu viverra velit feugiat rutrum. Integer sit amet fringilla lectus. Suspendisse vel accumsan dui, id volutpat nunc.
+                </p>
+                <p>
+                    Sed cursus metus lectus. Etiam dapibus, ante non feugiat tempus, mauris risus venenatis sem, vel placerat arcu diam id quam. Donec blandit risus maximus vestibulum elementum. Phasellus et aliquam elit. Proin quis auctor libero. Integer rutrum nisi id lorem euismod, at vehicula felis rutrum. Sed sem erat, placerat et ullamcorper non, luctus in mauris. Donec id felis in arcu semper porta quis eget ipsum.
+                </p>
+            </div> <!-- sobre-nostros__texto -->
+        </div> <!-- sobre-nosotros -->
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a  class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div><!-- barra -->
+        </div><!-- contenedor -->
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
